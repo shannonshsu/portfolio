@@ -1,0 +1,373 @@
+/*!
+* Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+
+
+body, html {
+width: 100%;
+height: 100%;
+font-family: 'Cardo', serif;
+font-size: 16pt;
+line-height:1.8em;
+}
+
+p {
+text-align:left;
+margin:20px 0px;
+}
+
+p:empty {
+	height:30%;
+}
+
+
+a, a:active {
+color: #fc165f;
+}
+
+a:hover {
+color: #a50e3e;
+}
+
+strong {
+color: #0093d3 !important;
+}
+
+.project {
+display:block;
+margin-bottom:60px;
+}
+
+
+
+span.tools {
+font-family: 'museo-sans', sans-serif;
+margin:10px 0px;
+font-size: 10pt;
+line-height:1.5;
+display:block;
+padding:10px;
+border-top: 1px #ccc solid;
+border-bottom:1px #ccc solid;
+}
+
+
+
+i.fa {
+margin-left:15px;
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+}
+
+
+span.open-link:hover {
+text-decoration: underline;
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+}
+
+.project .chocolat-parent a.chocolat-image img {
+opacity: 1;
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+background:rgba(0,0,0,1);
+display:inline;
+}
+
+.project .chocolat-parent a.chocolat-image img:hover {
+opacity:0.8 !important;
+-webkit-opacity: 0.8;
+-moz-opacity: 0.8;
+}
+
+
+
+
+
+
+
+.row {
+margin:0 auto;
+max-width:767px;
+padding-bottom:30px;
+}
+
+h1 {
+font-family:"museo-sans", sans-serif;
+text-transform: uppercase;
+font-weight:700;
+font-size: 42px;
+}
+h2 {
+font-family:"museo-sans", sans-serif;
+font-weight:100;
+font-size: 20px;
+text-transform: uppercase;
+margin-top:0;
+display:inline-block;
+text-rendering: optimizeLegibility;
+background:rgba(44, 62, 80, 0.8);
+padding:3px;
+}
+
+.name {
+font-size:60px ;
+line-height:1em;
+-moz-text-shadow:    2px 2px #ccc;
+-webkit-text-shadow: 2px 2px  #ccc;
+text-shadow:         2px 2px  #ccc;
+}
+
+.navbar {
+background: rgba(255,255,255, 0);
+border:none;
+padding:0;
+}
+
+.navbar-fixed-top {
+min-height: 60px;
+}
+
+.navbar-default .navbar-nav>li>a{
+background:rgba(255,255,255,0);
+border-bottom: none;
+font-family: "museo-sans", sans-serif;
+font-size: 14px;
+font-weight:100;
+text-transform: uppercase;
+color:white;
+}
+
+@media (min-width:460px) {
+.project .chocolat-parent a.chocolat-image span.open-link{
+float:right;
+text-align:right;
+/*font-size:16pt;*/
+margin-top:0;
+padding:3px;
+line-height:1em;
+}
+
+
+
+.chocolat-parent h2.subhead {
+float:left;
+}
+
+h2.subhead {
+text-align:left;
+display:block;
+background:none;
+font-size:26px;
+padding:0;
+}
+
+}
+
+@media (max-width: 767px) {
+.intro-section{
+padding-top:80px;
+}
+.img-thumbnail{
+    max-width:50%;
+    height:auto;
+}
+.navbar-fixed-top {
+top: 0px; /* you'll have to figure out the exact number here */
+position:relative;
+}
+
+.navbar-default {
+background:rgba(255,255,255,0);
+margin-bottom:-11px;
+padding-bottom:12px;
+display:block;
+}
+.navbar-default .navbar-nav>li>a {
+color:#535353 !important;
+line-height:1.9em;
+padding-left:30px;
+display:block;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color:#fc165f !important;
+display:block;
+font-weight:700 !important;
+-webkit-transition: color .4s ease-in;
+-moz-transition: color .4s ease-in;
+transition: color .4s ease-in;
+}
+.navbar-default .navbar-toggle {
+background: rgba(255,255,255,0);
+border:none;
+}
+.navbar-default .navbar-toggle:hover {
+background: #eee;
+}
+}
+
+@media(min-width:767px) {
+.intro-section {
+padding-top:100px;
+}
+.container {
+margin:0 auto;
+width:100%;
+padding: 0px 30px;
+}
+.navbar {
+padding: 10px 0;
+-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+.top-nav-collapse {
+padding:0;
+margin-top:-10px;
+background: rgba(255,255,255,1);
+border-bottom:2px #eee solid !important;
+position:fixed;
+}
+.navbar-default .navbar-nav>li>a {
+display:inline-block !important;
+}
+.navbar-default .navbar-nav>li>a:hover {
+font-weight:700;
+color: #535353 !important;
+
+}
+.navbar-default .navbar-nav>li>a:focus {
+-webkit-transition: color .3s ease-in-out;
+-moz-transition: color .3s ease-in-out;
+transition: color .3s ease-in-out;
+}
+.navbar-default .navbar-nav>.active>a {
+font-weight:700;
+color:#fc165f !important;
+background:rgba(0,0,0,0) !important;
+display:inline-block !important;
+
+}
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+background:rgba(0,0,0,0) !important;
+-webkit-transition: color .4s ease-in;
+-moz-transition: color .4s ease-in;
+transition: color .4s ease-in;
+}
+}
+
+@media (max-width: 480px) {
+.about-section, .work-section, .contact-section {
+padding: 10px 10px;
+}
+.row {
+padding-bottom:15px;
+}
+.project {
+margin-bottom:50px;
+}
+h1 {
+font-size:36px;
+}
+span.tools {
+display:none;
+}
+body, html {
+font-size:14pt;
+}
+h2 {
+background:none;
+}
+.chocolat-parent h2.subhead {
+float:left;
+}
+h2.subhead {
+text-align:left;
+display:block;
+background:none;
+font-size:22px;
+padding:0;
+margin-bottom:5px;
+}
+.project .chocolat-parent a.chocolat-image span.open-link{
+display:block;
+float:left;
+text-align:left;
+/*font-size:16pt;*/
+margin-top:0;
+margin-bottom:10px;
+padding:0;
+line-height:1em;
+}
+.name {
+font-size:50px !important;
+}
+
+}
+
+.intro-section {
+height: 350px;
+color:white;
+text-align: center;
+background: url(../img/pattern.png) no-repeat;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+background-size:cover;
+
+}
+
+/*.bg2 {
+background: url(../img/pattern3.jpg) no-repeat;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+background-size:cover;
+}*/
+
+.head {
+color: #2c3e50 !important;
+margin-bottom:50px;
+}
+
+
+h2 span {
+font-weight: 700;
+padding-right:3px;
+color: #34495e !important;
+}
+
+.about-section {
+padding: 50px 10px;
+text-align: center;
+background: #eee;
+}
+
+.work-section {
+padding: 50px 10px;
+text-align: center;
+background: #fff;
+}
+
+.contact-section {
+text-align: center;
+background: url(../img/pattern3.jpg) no-repeat;
+-moz-background-size:cover;
+-webkit-background-size:cover;
+background-size:cover;
+}
+
+.contact-section a i.fa {
+	color: #3f667a;
+	-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
+
+}
+.contact-section a i.fa:hover {
+	color: #234556;
+}
+
